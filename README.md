@@ -1,23 +1,5 @@
 ![gh-actions/site](https://github.com/monero-project/monero-site/workflows/gh-actions/site/badge.svg?branch=master)
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [What you'll need](#what-youll-need)
-- [General change recommendations](#general-change-recommendations)
-- [Translation](#translation)
-- [housekeeping](#housekeeping)
-- [How to make a blog post](#how-to-make-a-blog-post)
-- [Updates on User Guides](#updates-on-user-guides)
-- [How to make a blog post](#how-to-make-a-blog-post)
-- [How to make a User Guide](#how-to-make-a-user-guide)
-- [How to make a Moneropedia Entry](#how-to-make-a-moneropedia-entry)
-- [How to update the Workgroups page](#how-to-update-the-workgroups-page)
-- [How to update the Roadmap](#how-to-update-the-roadmap)
-- [How to add a new Merchant](#how-to-add-a-new-merchant)
-- [How to add a question to the FAQ](#how-to-add-a-question-to-the-faq)
-- [How to add a publication to the Library](#how-to-add-a-publication-to-the-library)
-
 ## Introduction
 This README here to walk you through everything you need to know to make changes, edits, or even completely new pages for the new [getmonero.org website](https://getmonero.org/). It'll definitely be a bit of a ride, so strap yourself in.
 Feel free to skip down to a relevant section if you already know what you need.
@@ -54,6 +36,7 @@ Every section from here on out will talk about how to make a specific type of we
 A few random points of note:
 
 - After [a discussion](https://repo.getmonero.org/monero-project/monero-site/issues/982), the community decided to include only open source wallets in the 'Downloads' section of the website. Requests to add closed source wallets to that page will be rejected.
+- Listing merchants on the 'Merchants' page is at our discretion and acceptance shouldn't be assumed.
 - All external links must have `https://` in front of them or they will not redirect properly.
 - If you want to add a new page to the navigation, you should go to ALL LANGUAGES in the `_data/lang` folder and add the page.
 - It is strongly strongly STRONGLY encouraged that if you make a change, you - at the minimum - test it on your local machine before submitting a PR. Sometimes unexpected things may happen due to a change. If you change a page, check the whole page on multiple screen sizes and browsers to make sure there wasn't any collateral damage.
@@ -64,9 +47,15 @@ This website is available natively on Tor. The onion address is in `_includes/on
 If you want to post getmonero's onion address somewhere on the website, don't simply write it, instead include it using `{% include onion.html %}`. This avoids problems with typos and allow us top change the address only in one file if necessary.
 
 ## Translation
-In this section you'll find the info you need to translate a page and add a new translation, but keep in mind that Monero has a [Localization Workgroup](https://github.com/monero-ecosystem/monero-translations) who coordinate and give support to translators-volunteers. For live support/request of infos, come chat on `#monero-translations` (Freenode/IRC, riot/matrix, MatterMost).
+In this section you'll find the info you need to translate a page and add a new translation, but keep in mind that Monero has a [Localization Workgroup](https://github.com/monero-ecosystem/monero-translations) who coordinate and give support to translators-volunteers. For live support/request of infos, come chat on `#monero-translations` (Freenode/IRC, matrix, MatterMost).
 
-The entire website, except for user guides and Moneropedia entries, is translatable on Weblate, an easy to use localization platform that provide contributors with a user friendly interface: [translate.getmonero.org](https://translate.getmonero.org). Before translating, please read [the guide for translators](https://github.com/monero-ecosystem/monero-translations/blob/master/weblate.md), which contains all the info and workflows you need to know before starting.
+The entire website, except for the Moneropedia entries, is translatable on Weblate, an easy to use localization platform that provide contributors with a user friendly interface: [translate.getmonero.org](https://translate.getmonero.org). Before translating, please read [the guide for translators](https://github.com/monero-ecosystem/monero-translations/blob/master/weblate.md), which contains all the info and workflows you need to know before starting.
+
+Translators are required to have:
+
+- A basic understanding of Monero technologies and wallets
+- A basic knowledge of markdown syntax
+- A basic knowledge of HTML syntax
 
 We are trying to move most of the localization work on Weblate, but some parts of the website still need to be manually translated on the repository. The following instructions will tell you which files to translate and how to proceed.
 
@@ -74,7 +63,6 @@ We are trying to move most of the localization work on Weblate, but some parts o
 * Navigate to the correct language in the /i18n folder and find the page you wish to translate
 * Do not translate any of the `*.yml` files in the /_18n folder
 * Click the file and translate the page, not touching any HTML or markdown
-* Adapt the snippet keeping track of the status of the translation in the document `{% include disclaimer.html translated="no" translationOutdated="no" %}`, changing to `yes` where appropriate
 * Test/Build
 * Submit PR
 

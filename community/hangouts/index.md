@@ -40,17 +40,17 @@ permalink: /community/hangouts/index.html
                                     <h2>{% t hangouts.resources %}</h2>
                                 </div>
                             </div>
-                            <div class="row center-xs">
-                                <p>{% t hangouts.resources_para %}</p>
-                            </div>
-                            <div class="row relays center-xs">
-                                <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div class="row around-xs">
+                                <div class="center-xs">
+                                    <p>{% t hangouts.resources_para %}</p>
+                                </div>
+                                <div class="col">
                                     <p><a href="https://translate.getmonero.org/" class="btn-link btn-fixed">Weblate</a></p>
                                 </div>
-                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                <div class="col">
                                     <p><a href="https://mattermost.getmonero.org/" class="btn-link btn-fixed">Mattermost</a></p>
                                 </div>
-                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                <div class="col">
                                     <p><a href="https://taiga.getmonero.org/" class="btn-link btn-fixed">Taiga</a></p>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ permalink: /community/hangouts/index.html
                 </div>
                 <!-- end left two-thirds block-->
                 <!-- right one-third block-->
-               <div class="right col-lg-4 col-md-4 col-sm-12 col-xs-12">
+               <div class="right one-third col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <div class="info-block center-xs">
                           <h2>{% t hangouts.mailing_list %}</h2>
                             <p>{% t hangouts.mailing_list1 %}</p>
@@ -83,9 +83,6 @@ permalink: /community/hangouts/index.html
                  {% for rooms_list in site.data.chats.chats %}
                    {% for room in rooms_list %}
                      {% if room[0] == channel[0] %}
-                       {% if rooms_list.mattermost %}
-                         <a class="chats-img" href="{{ rooms_list.mattermost }}"><img class="mattermost" src="/img/mattermost.png" title="MatterMost" alt="Mattermost logo"></a>
-                       {% endif %}
                        {% if rooms_list.matrix %}
                          <a class="chats-img" href="{{ rooms_list.matrix }}"><img class="matrix" src="/img/matrix-logo.svg" title="Matrix" alt="Matrix logo"></a>
                        {% endif %}

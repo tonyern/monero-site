@@ -17,6 +17,7 @@ permalink: index.html
                                 <source src="/media/{{ site.lang }}/Monero_Promo.m4v">
                             {% endif %}
                         <track label="English" kind="subtitles" srclang="en" src="/media/subtitles/en/monero-promo.vtt">
+                        <track label="Italian" kind="subtitles" srclang="it" src="/media/subtitles/it/monero-promo.vtt">
                         </video>   
                     </div>
                 </div>
@@ -25,7 +26,9 @@ permalink: index.html
                         <h1 id="main-h1">{% t global.monero %}</h1>
                         <h2 id="main-h2">{% t home.heading2 %}</h2>
                             <p id="main-text">{% t home.monero_is_cash %}</p>
-                            <p><a href="{{ site.baseurl }}/get-started/what-is-monero/" class="btn-link btn-auto btn-intro btn-primary">{% t home.whatis %}</a></p>
+                            <p id="btn-primary-box">
+                                <a href="{{ site.baseurl }}/get-started/what-is-monero/" class="btn-link btn-auto btn-intro btn-primary">{% t home.whatis %}</a>
+                            </p>
                     </div>
                 </div>
             </div>
@@ -45,12 +48,12 @@ permalink: index.html
                         <p><a href="{{ site.baseurl }}/downloads/" class="btn-link btn-fixed">{% t home.downloads %}</a></p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs">
-                    <img src="/img/create-wallet.png" alt="Create wallet" class="main-icon">
+                    <img src="/img/create-wallet.png" width="1500" height="1500" loading="lazy" alt="Create wallet" class="main-icon">
                 </div>
             </div>
             <div class="row middle-xs info-block-row">
                 <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs first-md last-sm last-xs">
-                    <img src="/img/exchange.png" alt="Exchange" class="main-icon">
+                    <img src="/img/exchange.png" width="1500" height="1500" loading="lazy" alt="Exchange" class="main-icon">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 why-text">
                     <h3>{% t home.getcoins %}</h3>
@@ -66,12 +69,12 @@ permalink: index.html
                     <p><a href="{{ site.baseurl }}/community/merchants/" class="btn-link btn-fixed">{% t home.merchants %}</a></p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs">
-                    <img src="/img/monero-accepted.png" alt="Merchants" class="main-icon">
+                    <img src="/img/monero-accepted.png" width="1500" height="1500" loading="lazy" alt="Merchants" class="main-icon">
                 </div>
             </div>
             <div class="row middle-xs info-block-row">
                 <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs first-md last-sm last-xs">
-                    <img src="/img/support.png" alt="FAQ" class="main-icon">
+                    <img src="/img/support.png" width="1500" height="1500" loading="lazy" alt="FAQ" class="main-icon">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 why-text">
                     <h3>{% t home.answers %}</h3>
@@ -112,7 +115,7 @@ permalink: index.html
             <!-- END left two-thirds block-->
             
             <!-- right one-third block-->
-            <div class="left one-third col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="right one-third col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="info-block center-xs">
                     <h2>Moneropedia</h2>
                     <p class="main-resources">{% t home.moneropedia_para %}</p>
@@ -135,12 +138,12 @@ permalink: index.html
                         <p><a href="{{site.baseurl}}/get-started/contributing/" class="btn-link btn-fixed">{% t home.contributing %}</a></p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs">
-                    <img src="/img/learn-about-monero.png" alt="Contribute" class="main-icon">
+                    <img src="/img/learn-about-monero.png" width="1500" height="1500" loading="lazy" alt="Contribute" class="main-icon">
                 </div>
             </div>
             <div class="row middle-xs info-block-row">
                 <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs first-md last-sm last-xs">
-                    <img src="/img/mrl-logo.svg" alt="Monero Research Lab" class="main-icon-mrl">
+                    <img src="/img/mrl-logo.svg" width="1500" height="1500" loading="lazy" alt="Monero Research Lab" class="main-icon-mrl">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 why-text">
                     <h3>{% t titles.researchlab %}</h3>

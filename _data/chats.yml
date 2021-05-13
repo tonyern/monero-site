@@ -1,42 +1,32 @@
 chats:
 - monero:
-  matrix: https://matrix.to/#/!psOvWRiQkyosOPKvaO:matrix.org
-  mattermost: https://mattermost.getmonero.org/monero/channels/monero
+  matrix: https://matrix.to/#/!psOvWRiQkyosOPKvaO:monero.social
 
 - monero-community:
-  matrix: https://matrix.to/#/!WzzKmkfUkXPHFERgvm:matrix.org
-  mattermost: https://mattermost.getmonero.org/monero/channels/monero-community
+  matrix: https://matrix.to/#/!WzzKmkfUkXPHFERgvm:monero.social
 
 - monero-dev: 
-  matrix: https://matrix.to/#/!VDQXWJoFsesLtbGdTT:matrix.org
-  mattermost: https://mattermost.getmonero.org/monero/channels/monero-dev
+  matrix: https://matrix.to/#/!VDQXWJoFsesLtbGdTT:monero.social
 
 - monero-markets:
-  matrix: https://matrix.to/#/!TlVgUtVNZychNpMzKW:matrix.org
-  mattermost: https://mattermost.getmonero.org/monero/channels/monero-markets
+  matrix: https://matrix.to/#/!TlVgUtVNZychNpMzKW:monero.social
 
 - monero-offtopic:
-  matrix: https://matrix.to/#/!qqRhJzAUfTJRpMHqIP:matrix.org
-  mattermost: https://mattermost.getmonero.org/monero/channels/monero-offtopic
+  matrix: https://matrix.to/#/!qqRhJzAUfTJRpMHqIP:monero.social
 
 - monero-otc:
 
 - monero-pools:
-  matrix: https://matrix.to/#/!ELYTQCXXdbEHObdtNR:matrix.org
-  mattermost: https://mattermost.getmonero.org/monero/channels/monero-pools
+  matrix: https://matrix.to/#/!ELYTQCXXdbEHObdtNR:monero.social
 
 - monero-research-lab:
-  matrix: https://matrix.to/#/!toFcRZtpaiwiyapgVO:matrix.org
-  mattermost: https://mattermost.getmonero.org/monero/channels/monero-research-lab
+  matrix: https://matrix.to/#/!toFcRZtpaiwiyapgVO:monero.social
 
 - monero-translations:
-  matrix: https://matrix.to/#/!gOsXdgyxhvIygdtBpS:matrix.org
-  mattermost: https://mattermost.getmonero.org/monero/channels/monero-translations
+  matrix: https://matrix.to/#/!gOsXdgyxhvIygdtBpS:monero.social
 
 - monero-hardware:
-  matrix: https://matrix.to/#/!HoCZRUWeTZDNBfUcDr:matrix.org
-  mattermost: https://mattermost.getmonero.org/monero/channels/monero-hardware
+  matrix: https://matrix.to/#/!HoCZRUWeTZDNBfUcDr:monero.social
 
 - monero-site:
-  matrix: https://matrix.to/#/!txpwSzQzkuUaVbtsIx:matrix.org
-  mattermost: https://mattermost.getmonero.org/monero/channels/monero-site
+  matrix: https://matrix.to/#/!txpwSzQzkuUaVbtsIx:monero.social

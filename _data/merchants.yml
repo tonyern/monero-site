@@ -3,16 +3,12 @@
   merchants:
     - name: "#monero-otc (OTC)"
       url: https://webchat.freenode.net?channels=%23monero-otc
-    - name: 1Bit.Group - Anonymous Monero exchanger
-      url: https://1bit.group/
-    - name: Actio-fast-pay.net - Automatic exchanger 24x7
-      url: https://actio-fast-pay.net/
+    - name: 24bestex.com - cryptocurrency exchanger
+      url: https://24bestex.com/
     - name: AgoraDesk - P2P OTC trading platform, includes Monero options
       url: https://agoradesk.com
     - name: Alfacashier
       url: https://www.alfacashier.com/
-    - name: Bacrypt.com - Fully anonymous exchange
-      url: https://bacrypt.com/
     - name: BestChange
       url: https://www.bestchange.com
     - name: Bitci (XMR/BTCI, XMR/TRY, XMR/CHFT)
@@ -25,18 +21,16 @@
       url: https://bitexbook.com/
     - name: Bitfinex (XMRUSD, XMRBTC)
       url: https://www.bitfinex.com/
-    - name: Bitqist - Instant exchange
-      url: https://bitqist.com/
     - name: Bisq; decentralized exchange (previously Bitsquare)
       url: https://bisq.network/
     - name: ChangeHero - Instant exchange
       url: https://changehero.io/
     - name: ChangeNOW
       url: https://changenow.io
+    - name: CoinCat - Buy and sell crypto in minutes
+      url: https://coincat.in/
     - name: CoinCut (OTC)
       url: https://www.coincut.com
-    - name: Coinexwo - Anonymous crypto exchange
-      url: https://trade.coinexwo.com/
     - name: CoinSwitch.co
       url: https://www.coinswitch.co
     - name: CRYPTODIGGERS.EU
@@ -145,13 +139,15 @@
       url: https://swirlpay.io/
     - name: Vigla
       url: https://vigla.biz/
-- category: Web hosting
+- category: Web Hosting
   id: hosting
   merchants:
     - name: 1Gbits
       url: https://1gbits.com/
     - name: 1oasis.net
       url: https://web.senang.online/
+    - name: 1984 Hosting Iceland - Privacy concerned hosting for freedom fighters
+      url: https://1984hosting.com
     - name: 99Stack Hosting
       url: https://www.99stack.com
     - name: Abaco Hosting
@@ -170,6 +166,8 @@
       url: https://cryptoho.st/
     - name: Evolution Host - Hosting services
       url: https://evolution-host.com/
+    - name: Fork Networking - Dedicated Servers and Virtual Private Servers (VPS)
+      url: https://www.forked.net/
     - name: LyraHosting - Offshore hosting company
       url: https://lyrahosting.com/
     - name: Monovm
@@ -186,6 +184,8 @@
       url: https://sporestack.com
     - name: SuperBitHost - Dedicated server, VPS, shared hosting, domains and SSL certificates
       url: https://www.superbithost.com
+    - name: TrilightZone - Anonymous offshore services since 2005
+      url: https://trilightzone.org/
     - name: Tuxcon Hosting - Mail and Web Hosting
       url: https://tuxcon.com
     - name: Webbdo Hosting (se)
@@ -197,6 +197,8 @@
   merchants:
     - name: Backtestking - Build or buy your own trading strategy/bot.
       url: https://www.backtestking.com/
+    - name: cryptoFacile - Compare crypto prices from the best crypto exchanges
+      url: https://cryptofacile.io
     - name: Cryptoradar (Marketplace comparison website)
       url: https://cryptoradar.co/buy-monero
     - name: GetBlock - Blockchain Nodes Provider
@@ -284,6 +286,8 @@
       url: https://seymour-locksmiths.co.uk/
     - name: Social Media LTD - Digital marketing agency
       url: https://social-media.co.uk/
+    - name: Southwest Environmental Limited - Environmental Consultancy
+      url: https://www.southwest-environmental.co.uk
     - name: TorGuard - VPN, proxy and email service
       url: https://torguard.net
     - name: Travala - Cryptocurrency Friendly Travel Booking
@@ -301,6 +305,8 @@
       url: https://www.bitdials.eu
     - name: Bitgear Australia - Australian hardware wallet retailer
       url: https://www.bitgear.com.au/
+    - name: Bitvape - "Australia's top rated JUUL store"
+      url: https://bitvape.com.au
     - name: CelticGold AG - Buy and sell precious metals via crypto
       url: https://www.celticgold.eu/
     - name: Cellphone and laptop repair online store in Sweden
@@ -323,6 +329,10 @@
       url: https://www.cryptocurrencyposters.com/
     - name: CryptoFlooring - plank flooring (U.S.)
       url: https://www.cryptoflooring.com
+    - name: Declic CBD - CBD products online shop
+      url: https://declic-cbd.fr/
+    - name: digitalgoods by ProxyStore
+      url: https://digitalgoods.proxysto.re/
     - name: Direct Depot - Trucking Products And Power Inverters
       url: https://www.directdepot.net/
     - name: Directvoltage
@@ -373,6 +383,8 @@
       url: https://monerobox.store/
     - name: Mushroom cultures, mushroom growing supplies, seeds
       url: https://www.vesp.co/Fungible
+    - name: "North of Boston - Farm: Veggies fruit meat. Home delivery & markets"
+      url: https://northofboston.farm
     - name: Olympian Bitcoin Store
       url: https://olympianbitcoin.store/
     - name: PawanpatSilver
@@ -381,10 +393,14 @@
       url: https://print-ted.com/
     - name: Project Coral Reef Store
       url: https://www.projectcoralreef.com/all-stores
+    - name: ProxyStore - order products via the proxystore within the eu
+      url: https://proxysto.re/en/bestellservice.html
     - name: Purism - Privacy Phones & Laptops
       url: https://shop.puri.sm/
     - name: Reagent Tests UK - tests to detect adulteration and substitution of drugs
       url: https://www.reagent-tests.uk/
+    - name: Reflectacles Privacy Eyewear - Sunglasses designed to fool facial recognition
+      url: https://www.reflectacles.com/
     - name: Renjer Snacks
       url: https://www.renjer.ky
     - name: Revolution Microelectronics
@@ -405,12 +421,16 @@
       url: https://toys4sex.com.au/
     - name: Veldt Gold - Buy and sell gold and silver bullion with Monero
       url: https://veldtgold.com/
+    - name: Vesper Farms - Vermont CBD oil & Custom 3D Printed chess sets and crafts
+      url: https://www.vesperfarms.com/
     - name: Judit Mátyus - Jewelry
       url: https://www.juditmatyus.com/
     - name: XenPods - E-cigarette supplier
       url: https://xenpods.com.au/
     - name: YogiWay - Yoga mats, bags and yoga accessories
       url: https://yogiway.cz/
+    - name: Z1 Fashion- Imagoza - Transformational clothing for a unique individual
+      url: https://www.etsy.com/shop/ImagozaZ1fashion
 - category: Entertainment
   id: entertainment
   merchants:
@@ -422,3 +442,5 @@
       url: https://monero.win/
     - name: SafeDice
       url: https://safedice.com
+    - name: pandaCD - Peer-to-peer for musicians
+      url: https://pandacd.io/

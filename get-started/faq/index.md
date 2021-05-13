@@ -69,12 +69,12 @@ permalink: /get-started/faq/index.html
                         <h2>{% t faq.resandhelp %}</h2>
                     </div>
                 </div>
-                <h3><a href="https://monero.stackexchange.com/">StackExchange</a></h3>
-                    <p>{% t faq.stackexchange %}</p>
                 <h3><a href="{{ site.baseurl }}/resources/user-guides/">{% t titles.userguides %}</a></h3>
                     <p>{% t faq.userguides %}</p>
                 <h3><a href="{{ site.baseurl }}/resources/developer-guides/">{% t titles.developerguides %}</a></h3>
                     <p>{% t faq.devguides %}</p>
+                <h3><a href="https://monero.stackexchange.com/">StackExchange</a></h3>
+                    <p>{% t faq.stackexchange %}</p>
                 <h3><a href="https://www.reddit.com/r/monerosupport/">r/monerosupport</a></h3>
                     <p>{% t faq.monerosupport %}</p>
                 <h3><a href="https://www.monero.how/">Monero.how</a></h3>
@@ -185,9 +185,9 @@ permalink: /get-started/faq/index.html
                         <ol>
                             <li><a href="{{ site.baseurl_root }}/media/Monero_Promo.m4v">{% t faq.video_intro %}</a> ({% t faq.aavailable %} <a href="{{ site.baseurl_root }}/media/ru/Monero_Promo.m4v">Russian</a> {% t faq.and %} <a href="{{ site.baseurl_root }}/media/pt-br/Monero_Promo.m4v">Brazilian Portuguese</a>)</li>
                             <li><a href="{{ site.baseurl_root }}/media/Monero%20-%20The%20Essentials.m4v">{% t faq.video_essentials %}</a></li>
-                            <li><a href="{{ site.baseurl_root }}/media/Monero%20-%20Stealth%20Addresses.m4v">{% t faq.video_sa %}</a> - {% t faq.mvideos %} @stealth-addresses</li>
-                            <li><a href="{{ site.baseurl_root }}/media/Monero%20-%20Ring%20Signatures.m4v">{% t faq.video_ringsig %}</a> - {% t faq.mvideos %} @ring-signatures</li>
-                            <li><a href="{{ site.baseurl_root }}/media/Monero%20-%20RingCT.m4v">RingCT</a> - {% t faq.mvideos %} @ring-ct</li>
+                            <li><a href="{{ site.baseurl_root }}/media/Monero%20-%20Stealth%20Addresses.m4v">{% t faq.video_sa %}</a> - {% t faq.mvideos %} @Stealth-Addresses</li>
+                            <li><a href="{{ site.baseurl_root }}/media/Monero%20-%20Ring%20Signatures.m4v">{% t faq.video_ringsig %}</a> - {% t faq.mvideos %} @Ring-Signatures</li>
+                            <li><a href="{{ site.baseurl_root }}/media/Monero%20-%20RingCT.m4v">{% t faq.video_ringct %}</a> - {% t faq.mvideos %} @RingCT</li>
                         </ol>
                     </div>
                 </div>
