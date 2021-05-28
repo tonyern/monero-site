@@ -97,6 +97,9 @@ home:
   researchlab_para: The MRL (Monero Research Lab) is a very important part of Monero. Researchers and cryptographers from all over the world meet to find new ways to improve Monero. Read their papers and join them!
   visitmrl: Visit the MRL
   contributing: Contributing
+  meetcommunity: "Meet the community!"
+  meetus: "The members of the Monero community are all over the world. You can find us on multiple platforms. Come meet us!"
+  hangouts: Hangouts
 
 hangouts:
   intro: The Monero community is diverse and varied. We come from all over, but we definitely have some places we like to hang out together. You'll find most of them below. Join us!
@@ -114,7 +117,6 @@ hangouts:
     monero-dev: The many contributors and developers come here to discuss dev-y things.
     monero-markets: We use this channel to talk about the price of Monero and other coins.
     monero-offtopic: Chatting with other Monero users about things not related to Monero.
-    monero-otc: Over the counter Monero. Come here to purchase XMR from your fellow Moneron.
     monero-pools: This is the place for mining questions and discussion.
     monero-research-lab: Research into financial privacy with cryptocurrency.
     monero-translations: Localizing Monero into other languages.
@@ -345,7 +347,7 @@ contributing:
   bug: "Bug and vulnerability hunting: Monero is listed on Hackerone and developers are asked to responsibly disclose bugs and vulnerabilities. See"
   discl: The Monero Project Vulnerability Response Process.
   develop_descr: >
-    This list only includes the tools stewarded by the core team, but the Monero ecosystem is much more vast. People can contribute to the development of libraries, services, documentation, graphics, etc. The list is virtually infinite. Contact or join the workgroup more affine to your way of contributing.
+    This list only includes the tools stewarded by the core team, but the Monero ecosystem is much more vast. People can contribute to the development of libraries, services, documentation, graphics, etc. The list is virtually infinite. Contact or join the workgroup(s) to which you'd like to contribute.
   develop_wg: See the Monero Workgroups.
   full-node: Run a Node
   full-node_p: An easy and effective way to help the Monero network is to run a @node. Nodes ensure the network keeps running safe and decentralized. A simple fully synchronized node is enough to help the network, but if you want to go out of your way, you could run an open @remote-node, to allow other people to connect to it.
@@ -710,6 +712,7 @@ roadmap:
 
 research-lab:
   intro: Monero is not only committed to making a fungible currency, but also to continued research into the realm of financial privacy as it involves cryptocurrencies. Below you'll find the work of our very own Monero Research Lab, with more papers to come.
+  intro_email: "To contact the Monero Research Lab, please email lab@getmonero.org."
   mrl_papers: Published Papers
   abstract: Abstract
   introduction: Introduction
@@ -742,6 +745,7 @@ research-lab:
   iacr2020018: "Triptych: logarithmic-sized linkable ring signatures with applications"
   iacr2020018_abstract: Ring signatures are a common construction used to provide signer ambiguity among a non-interactive set of public keys specified at the time of signing. Unlike early approaches where signature size is linear in the size of the signer anonymity set, current optimal solutions either require centralized trusted setups or produce signatures logarithmic in size. However, few also provide linkability, a property used to determine whether the signer of a message has signed any previous message, possibly with restrictions on the anonymity set choice. Here we introduce Triptych, a family of linkable ring signatures without trusted setup that is based on generalizations of zero-knowledge proofs of knowledge of commitment openings to zero. We demonstrate applications of Triptych in signer-ambiguous transaction protocols by extending the construction to openings of parallel commitments in independent anonymity sets. Signatures are logarithmic in the anonymity set size and, while verification complexity is linear, collections of proofs can be efficiently verified in batches. We show that for anonymity set sizes practical for use in distributed protocols, Triptych offers competitive performance with a straightforward construction.
   iacr2020312: "Arcturus: efficient proofs for confidential transactions"
+  iacr2020312_note: "NOTE: this paper has been retracted, but it's possible to view it clicking on 'All versions of this report'."
   iacr2020312_abstract: Confidential transactions are used in distributed digital assets to demonstrate the balance of values hidden in commitments, while retaining signer ambiguity. Previous work describes a signer-ambiguous proof of knowledge of the opening of commitments to zero at the same index across multiple public commitment sets and the evaluation of a verifiable random function used as a linking tag, and uses this to build a linkable ring signature called Triptych that can be used as a building block for a confidential transaction model. In this work, we extend Triptych to build Arcturus, a proving system that proves knowledge of openings of multiple commitments to zero within a single set, correct construction of a verifiable random function evaluated at each opening, and value balance across a separate list of commitments within a single proof. While soundness depends on a novel dual discrete-logarithm hardness assumption, we use data from the Monero blockchain to show that Arcturus can be used in a confidential transaction model to provide faster total batch verification time than other state-of-the-art constructions without a trusted setup.
   cryptonote: Cryptonote Whitepapers
   cryptonote-whitepaper: Cryptonote Whitepaper

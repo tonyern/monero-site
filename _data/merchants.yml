@@ -1,8 +1,6 @@
 - category: Exchanges
   id: exchanges
   merchants:
-    - name: "#monero-otc (OTC)"
-      url: https://webchat.freenode.net?channels=%23monero-otc
     - name: 24bestex.com - cryptocurrency exchanger
       url: https://24bestex.com/
     - name: AgoraDesk - P2P OTC trading platform, includes Monero options
@@ -55,8 +53,6 @@
       url: https://www.hollaex.com/
     - name: Incognito - Completely anonymous decentralized exchange
       url: https://incognito.org/
-    - name: InstaEx - Instant exchange
-      url: https://instaex.io/
     - name: Kaiserex
       url: https://www.kaiserex.com/
     - name: Karsha
@@ -81,8 +77,6 @@
       url: https://poloniex.com/exchange/btc_xmr
     - name: REXI.cc
       url: https://rexi.cc
-    - name: ShapeShift (Instant)
-      url: https://shapeshift.io/
     - name: SideShift AI - A rapid coin swap that fully supports Monero
       url: https://sideshift.ai
     - name: SimpleSwap
@@ -203,6 +197,8 @@
       url: https://cryptoradar.co/buy-monero
     - name: GetBlock - Blockchain Nodes Provider
       url: https://getblock.io
+    - name: KryptoCheck (German marketplace comparison website)
+      url: https://kryptocheck.de
     - name: MoneroBase Price Charts and Tools
       url: https://monerobase.com
     - name: MoneroNotify - Transaction Notification Service
